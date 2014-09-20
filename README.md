@@ -3,7 +3,7 @@ The istyle extension runs the istyle script, which is just a call to astyle with
 And the hooks check for modified but unstuled files.
 If the style is wrong, the files are styled and the user must try to commit again.
 Otherwise the commit is allowed.
-The hooks also looks for executable files, which should not be commited.
+The hooks also look for executable files, which should not be commited.
 Requires astyle-1.24 which supports piped input.
 
 
